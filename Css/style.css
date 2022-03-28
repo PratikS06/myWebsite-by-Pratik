@@ -96,7 +96,34 @@ body {
   .google-play-img {
     height: 90px;
   }
-
-.Resister{
+  .Resister{
       color: #fff;
   }
+  
+  @media screen and (max-width: 1230px){
+    .phone-img {
+      height: 60%;
+    }
+    nav .nav-items {
+      display: none;
+    }
+    nav .nav-menu-icon {
+      display: block;
+      margin: auto;
+    }
+    nav .nav-menu-icon i {
+      color: #fff;
+      font-size: 30px;
+    }
+  }
+  
+  @media screen and (max-width: 900px) {
+    .phone-img {
+      display: none;
+    }
+    .google-play-img {
+      height: 50px;
+    }
+  }
+  
+  
